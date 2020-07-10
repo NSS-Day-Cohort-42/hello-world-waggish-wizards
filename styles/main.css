@@ -1,27 +1,53 @@
-nav {
+@import "./cities.css";
+@import "./landmarks.css";
+@import "./heads.css";
+
+.main {
+    display: flex;
 
 }
+
+.content--left {
+    flex: 1;
+
+}
+.content--middle { 
+    flex: 1;
+
+}
+.content--right {
+    flex: 1;
+
+} 
+
+/* 
 .siteLogo {
 
 }
 .navLink{
 
-}
-.countryName{
+} */
 
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 20em;
+    margin-top: 2em;
+    margin-bottom: 8em; 
 }
-.countryPicture{
-
-}
-.main {
-
-}
-.content--left {
-
-}
-.content--middle { 
-
-}
-.content--right {
-
+.countryName {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10em;
+}  
+.countryPicture {
+    width: 100%;
+    height: 25em;
+} 
+.articleHeader {
+    font-size: 2em;
+    font-family: Cambria;
 }

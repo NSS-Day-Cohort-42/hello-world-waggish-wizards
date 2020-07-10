@@ -1,0 +1,10 @@
+.landmarks {
+    margin: 2em;
+    border: 0.2em solid darkslategrey;
+    padding: 1em;
+}
+.landmark { 
+    font-size: 1.5em;
+    font-family: Cambria;
+    
+}

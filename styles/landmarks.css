@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-.landmarks {
-    margin: 2em;
-    border: 0.2em solid darkslategrey;
-    padding: 1em;
-}
-.landmark { 
-    font-size: 1.5em;
-    font-family: Cambria;
-    
-=======
+   
 .landmarks{
     margin: 2em;
     border: 0.2em solid #ff414e;
@@ -17,5 +7,8 @@
     font-family: Cambria;
     color: white;
 
->>>>>>> 98c3f7353a2a4ae1a7572daddbaa204fdbba79e5
+}
+.landmark { 
+    font-size: 1.5em;
+    font-family: Cambria;
 }

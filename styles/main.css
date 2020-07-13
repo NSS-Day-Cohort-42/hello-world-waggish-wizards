@@ -5,14 +5,14 @@
 
 
 .navbar {
-    background-color: #acb7ae;
+    background-color: #ff414e;
     overflow: hidden;
     display: flex;
   }
   
 .navbar a {
     float: left;
-    color: #82716e;
+    color: #f2f2f2;
     text-align: center;
     padding: 2rem 6rem;
     text-decoration: none;
@@ -25,7 +25,7 @@
   }
 
   body {
-      background-color: #e4decd;
+      background-color: #ffde22;
   }
 
 .main{

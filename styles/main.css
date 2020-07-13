@@ -1,0 +1,80 @@
+@import "./cities.css";
+@import "./headsofstate.css";
+@import "./landmarks.css";
+
+
+
+
+body {
+    background-color: #ffde22;
+}
+
+.main {
+    display: flex;
+}
+
+.content--left {
+    flex: 1;
+}
+
+.content--middle {
+    flex: 1;
+}
+
+.content--right {
+    flex: 1;
+}
+
+.siteLogo {
+    height: 20rem;
+    width: 20rem;
+    justify-content: left;
+}
+
+.header { 
+    display: flex;
+}
+
+.siteTitle {
+    text-align: right;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: green;
+    height: 20em;
+}
+
+.countryName {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: white
+}
+
+.countryPicture{
+    width: 100%;
+    height: 20rem;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    background-color: #333333;
+}
+
+.navbar a {
+    float: right;
+    color: white; 
+    text-align: center;
+    padding: 32px 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+
+
+h1 {text-align: center;}

@@ -15,6 +15,6 @@ export const landmarkHTMLList = () => {
 
     entryLog.innerHTML += `
     <article class ="landmarks">
-    <h2 class = "articleHeader"> Landmark </h2>
+    <h2 class = "articleHeader"> Landmarks </h2>
     ${LandmarkHTMLRepresentations}
     </article> ` }

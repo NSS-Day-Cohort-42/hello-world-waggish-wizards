@@ -1,10 +1,10 @@
 const Heads = [
     
-    {head: "Toronto"},
-    {head: "Vancouver"},
-    {head: "Calgary"},
-    {head: "Quebec"},
-    {head: "Charlottetown"}
+    {head: "Queen Elizabeth II"},
+    {head: "Justin Trudeau"},
+    {head: "Stephen Harper"},
+    {head: "Paul Martin"},
+    {head: "Jean Chrétien"}
   
 ]
 

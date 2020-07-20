@@ -3,6 +3,6 @@
 export const cityAsHTML = (cityObj) => {
     return `
     
-    <div class="city">${cityObj.name}</div>
+    <div class="landmark">${cityObj.name}</div>
     `
 }

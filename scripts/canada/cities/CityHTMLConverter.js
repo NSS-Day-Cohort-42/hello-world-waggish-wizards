@@ -1,7 +1,9 @@
-export const CityComponent = (city) => {
+export const cityComponent = (city) => {
     return `
         
-           <div class="city">${city.city}</div>
+           <div class="city">${city.name}</div>
+           <div><img class="city__image" src="${city.image}"/></div>
+           <a class="city__link" href="${city.link}">More Info</a>
            
     `
 }

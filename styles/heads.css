@@ -5,8 +5,15 @@
     font-size: 1.5em;
     font-family: Cambria;
     color: #82716e;
+}
 
+.head__image {
+    height: 7em;
+    width: 11em;
+}
 
+<<<<<<< HEAD
+=======
 }
 
 .head__image {
@@ -14,6 +21,7 @@
     width: 9em;
 }
 
+>>>>>>> master
 .head__link {
     text-decoration: none;
 }

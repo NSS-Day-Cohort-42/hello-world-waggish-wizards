@@ -1,5 +1,4 @@
 .cities {
-    position: relative;
     margin: 2em;
     border: 0.2em solid #82716e;
     padding: 1em;
@@ -12,11 +11,33 @@
     height: 7em;
     width: 9em;
 }
-
+.city__hover{
+    position: relative;
+}
 .city__description {
     position: absolute;
+    bottom: 40%;
+    right: 40%;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .city__link {
     text-decoration: none;
 }
+
+.city__hover:hover{
+    cursor: pointer;
+   }
+   
+.city__hover:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+   }

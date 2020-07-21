@@ -6,5 +6,5 @@ export const landmarksHTML = (landmarkObj) => {
     <div class="landmark__link"><a target=_blank href="${landmarkObj.URL}">Click to learn more about visiting the ${landmarkObj.name}</a></div>
     </section>
     <br></br>
-        `
+`
 }

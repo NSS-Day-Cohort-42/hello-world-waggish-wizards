@@ -12,6 +12,31 @@
     width: 9em;
 }
 
-.head__link {
+.head__hover{
+    position: relative;
+}
+.head__link{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
     text-decoration: none;
 }
+
+
+.head__hover:hover{
+    cursor: pointer;
+   }
+   
+.head__hover:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+   }

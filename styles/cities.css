@@ -14,10 +14,10 @@
 .city__hover{
     position: relative;
 }
-.city__description {
+.city__link{
     position: absolute;
-    bottom: 40%;
-    right: 40%;
+    bottom: 20%;
+    left: 10%;
     color: white;
     margin-bottom: 5px;
     font-family: sans-serif;
@@ -25,11 +25,9 @@
     visibility: hidden;
     -webkit-transition: visibility 0s, opacity 0.5s linear; 
     transition: visibility 0s, opacity 0.5s linear;
-}
-
-.city__link {
     text-decoration: none;
 }
+
 
 .city__hover:hover{
     cursor: pointer;

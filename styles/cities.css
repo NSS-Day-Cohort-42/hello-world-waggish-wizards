@@ -7,12 +7,35 @@
     color: #82716e;
 }
 
-
-
-
-.city__image { height: 7em; width: 9em; } 
-
-.city__link {
+.city__image {
+    height: 7em;
+    width: 9em;
+}
+.city__hover{
+    position: relative;
+}
+.city__link{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
     text-decoration: none;
-    } 
+}
 
+
+.city__hover:hover{
+    cursor: pointer;
+   }
+   
+.city__hover:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+   }

@@ -2,11 +2,12 @@
 
 export const HeadsAsHTML = (headObj) => {
     return `
-   
-        <div class="head">${headObj.name}</div>
-        <div><img class="head__image" src="${headObj.image}"/><div>
-        <a class="head__link" target=_blank href="${headObj.link}">Click Here for more info</a>
-        <br></br>
-        `
+    <div class ="head">${headObj.name}</div>
+    <section class="head__hover">
+    <div><img class="head__image" src="${headObj.image}"></div>
+    <div class="head__link"><a target=_blank href="${headObj.link}">Click to learn more about  ${headObj.name}</a></div>
+    </section>
+    <br></br>
+    `
     
 }

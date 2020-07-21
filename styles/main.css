@@ -1,8 +1,9 @@
 @import "./cities.css";
 @import "./heads.css";
 @import "./landmarks.css";
-
-
+@keyframes headerPicture {
+    from {}
+}
 
 .navbar {
     background-color: #acb7ae;
@@ -57,7 +58,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 10em;
-    
 }
 
 .countryPicture{

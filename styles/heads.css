@@ -9,19 +9,9 @@
 
 .head__image {
     height: 7em;
-    width: 11em;
-}
-
-<<<<<<< HEAD
-=======
-}
-
-.head__image {
-    height: 7em;
     width: 9em;
 }
 
->>>>>>> master
 .head__link {
     text-decoration: none;
 }

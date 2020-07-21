@@ -8,3 +8,9 @@
     color: #82716e;
 
 }
+
+.landmark__image { height: 7em; width: 9em; } 
+
+.landmark__link {
+    text-decoration: none;
+    } 

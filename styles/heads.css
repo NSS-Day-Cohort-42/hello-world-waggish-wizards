@@ -7,14 +7,10 @@
     color: #82716e;
 }
 
-.head__image {
-    height: 7em;
-    width: 11em;
-}
 
-
+.head__image { height: 7em; width: 9em; } 
 
 .head__link {
     text-decoration: none;
-}
+    } 
 
